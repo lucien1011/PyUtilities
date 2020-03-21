@@ -14,3 +14,5 @@ class Timer(object):
     def makeDayLabel(self):
         timeNow = datetime.now(tz=None)
         return timeNow.strftime(self.dateDivider.join(["%y","%m","%d"]))
+
+timer = Timer()
